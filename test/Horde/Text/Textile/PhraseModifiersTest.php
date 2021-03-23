@@ -4,9 +4,8 @@
  * @package    Text_Textile
  * @subpackage UnitTests
  */
-
-/** Horde_Text_Textile_TestCase */
-require_once __DIR__ . '/TestCase.php';
+namespace Horde\Text\Textile;
+use Horde_Text_Textile_TestCase;
 
 /**
  * These tests correspond to "3. Quick Phrase Modifiers" from http://hobix.com/textile/.
@@ -15,7 +14,7 @@ require_once __DIR__ . '/TestCase.php';
  * @package    Text_Textile
  * @subpackage UnitTests
  */
-class Horde_Text_Textile_PhraseModifiersTest extends Horde_Text_Textile_TestCase {
+class PhraseModifiersTest extends BaseTestCase {
 
     public function testStructuralEmphasis()
     {

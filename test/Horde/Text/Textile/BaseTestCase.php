@@ -4,16 +4,16 @@
  * @package    Text_Textile
  * @subpackage UnitTests
  */
+namespace Horde\Text\Textile;
+use PHPUnit\Framework\TestCase;
+use \Horde_Text_Textile;
 
-/** Horde_Text_Textile */
-
-require_once __DIR__ . '/../../../../lib/Horde/Text/Textile.php';
 /**
  * @category   Horde
  * @package    Text_Textile
  * @subpackage UnitTests
  */
-class Horde_Text_Textile_TestCase extends PHPUnit\Framework\TestCase {
+class BaseTestCase extends TestCase {
 
     public function setUp(): void
     {
